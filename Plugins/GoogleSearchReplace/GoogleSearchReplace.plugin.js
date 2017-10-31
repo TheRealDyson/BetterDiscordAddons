@@ -10,16 +10,8 @@ class GoogleSearchReplace {
 		this.textUrlReplaceString = "DEVILBRO_BD_GOOGLESEARCHREPLACE_REPLACE_TEXTURL";
 		
 		this.searchEngines = [
-			{"name":"Ask", 				"url":"https://ask.com/web?q=" + this.textUrlReplaceString},
-			{"name":"Bing", 			"url":"https://www.bing.com/search?q=" + this.textUrlReplaceString},
-			{"name":"DogPile",			"url":"http://www.dogpile.com/search/web?q=" + this.textUrlReplaceString},
 			{"name":"DuckDuckGo",		"url":"https://duckduckgo.com/?q=" + this.textUrlReplaceString},
 			{"name":"Google", 			"url":"https://www.google.com/search?q=" + this.textUrlReplaceString},
-			{"name":"Google Scholar", 	"url":"https://scholar.google.com/scholar?q=" + this.textUrlReplaceString},
-			{"name":"Quora", 			"url":"https://www.quora.com/search?q=" + this.textUrlReplaceString},
-			{"name":"WolframAlpha",		"url":"https://www.wolframalpha.com/input/?i=" + this.textUrlReplaceString},
-			{"name":"Yandex", 			"url":"https://yandex.com/search/?text=" + this.textUrlReplaceString},
-			{"name":"Yahoo", 			"url":"https://search.yahoo.com/search?p=" + this.textUrlReplaceString}
 		];
 
 		this.messageContextEntryMarkup =
